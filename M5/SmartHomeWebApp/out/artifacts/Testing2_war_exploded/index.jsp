@@ -70,12 +70,8 @@
     <label><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="userPW" required>
 
-    <button type="login" formaction="./welcomeUser.jsp" value="Login">Login</button>
+    <button type="login" formaction="./userLogin.jsp" value="Login">Login</button>
     <button type="register" formaction="./userRegistration.jsp" value="Register">Register</button>
-
-    <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
 
     <div class="container" style="background-color:#f1f1f1">
         <button type="button" class="cancelbtn">
