@@ -16,69 +16,32 @@
     <meta name="author" content="Albert Xing">
     <meta http-equiv="refresh" content="600">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="res/style/WelcomeStyle.css" rel="stylesheet">
+    <link href="../res/style/WelcomeStyle.css" rel="stylesheet">
 </head>
 <body>
 <div class="header">
-
-    <div class="logo">
-        <a href="WelcomeScreen.html"><img src="res/images/SmartWorks1.1.png" alt="SmartWorks Logo" width="200" ;
-                                          height="100"></a>  <!-- Logo -->
-    </div>
-
-    <ul class="menu">
-
-        <li class="dropdown">
-            <span>Features▾</span>
-            <div class="dropdown-content">
-                <a href="#">Product Tours</a>
-                <a href="#">Packages</a>
-                <a href="#">Demos</a>
-            </div>
-        </li>
-
-        <li>
-            <a href="#Pricing">Pricing</a>  <!-- About Us -->
-        </li>
-
-        <li>
-            <a href="#Tutorials">Tutorials</a>  <!-- -->
-        </li>
-
-        <li>
-            <a href="#FAQ">FAQ</a>  <!-- -->
-        </li>
-
-        <li>
-            <a href="#AboutUs">About Us</a>  <!-- -->
-        </li>
-
-        <li>
-            <a href="index.jsp">Login</a>
-        </li>
-
-    </ul>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="../js/script.js"></script>
 </div>
-
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
     <!-- Full-width images with number and caption text -->
     <div class="mySlides fade">
         <div class="numbertext">1 / 3</div>
-        <img src="res/images/Cleaning.jpg" style="width:100%">
+        <img src="../res/images/Cleaning.jpg" style="width:100%">
         <div class="text">Cleaning</div>
     </div>
 
     <div class="mySlides fade">
         <div class="numbertext">2 / 3</div>
-        <img src="res/images/FloorPlan.jpg" style="width:100%">
+        <img src="../res/images/FloorPlan.jpg" style="width:100%">
         <div class="text">Floor Plan</div>
     </div>
 
     <div class="mySlides fade">
         <div class="numbertext">3 / 3</div>
-        <img src="res/images/Alarm.jpg" style="width:100%">
+        <img src="../res/images/Alarm.jpg" style="width:100%">
         <div class="text">Alarm System</div>
     </div>
 

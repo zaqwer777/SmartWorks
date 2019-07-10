@@ -1,5 +1,8 @@
 package user;
 
+/**
+ * Data transfer object
+ */
 public class UserDTO {
     String userID;
     String userPW;
