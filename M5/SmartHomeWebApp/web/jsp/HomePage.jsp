@@ -16,6 +16,7 @@
     <meta name="author" content="Albert Xing">
     <meta http-equiv="refresh" content="600">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../res/style/customHeader.css" rel="stylesheet">
     <link href="../res/style/HomePage.css" rel="stylesheet">
 </head>
 <body>
@@ -31,7 +32,7 @@
             <a href="./alarm.jsp">Alarm Configuration</a>
         </th>
         <td class="tg-0lax">
-            <a href="./schedule.jsp">Schedule</a>
+            <a href="./addSensor.jsp">Add Sensor</a>
         </th>
     </tr>
     <tr>

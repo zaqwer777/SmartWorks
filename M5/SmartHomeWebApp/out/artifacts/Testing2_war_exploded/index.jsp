@@ -17,6 +17,7 @@
     <meta name="author" content="Albert Xing">
     <meta http-equiv="refresh" content="600">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="res/style/customHeader.css" rel="stylesheet">
     <link href="res/style/LoginStyle.css" rel="stylesheet">
 </head>
 <body>

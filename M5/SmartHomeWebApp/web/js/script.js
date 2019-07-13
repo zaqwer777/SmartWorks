@@ -1,4 +1,4 @@
 //Author: Brian Lee
 $(document).ready(function(){
-    $('.header').load("./html/customHeader.html");
+    $('.header').load("../html/customHeader.html");
 });
