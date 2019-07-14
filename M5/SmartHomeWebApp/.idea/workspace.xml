@@ -6,41 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af639c24-e573-479f-ba70-7c6421262eca" name="Default Changelist" comment="Change Log:&#10;1. Finished implementing customer service email interaction functionality&#10;2. Finished implementing add sensor to database&#10;3. Altered table setting to rid duplicates">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Testing2_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Testing2_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c260c38b-c774-4bbc-8c45-8d94f2e1f5e6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c260c38b-c774-4bbc-8c45-8d94f2e1f5e6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SmartHomeWebApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SmartHomeWebApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/html/add_camera.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/html/add_camera.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/html/camera_config.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/html/camera_config.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/html/camera_main_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/html/camera_main_menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/html/delete_camera.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/html/delete_camera.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/html/view_camera.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/html/view_camera.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/jsp/HomePage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/jsp/HomePage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/jsp/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/jsp/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/jsp/camera.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/jsp/support.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/jsp/support.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/jsp/userLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/jsp/userLogin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/jsp/userRegistration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/jsp/userRegistration.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/jsp/welcomeUser.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/camera/CameraDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/camera/CameraDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sensor/SensorDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sensor/SensorDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/DatabaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/DatabaseUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/HomePage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/HomePage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/camera.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/support.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/userLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/userLogin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/userRegistration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/userRegistration.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/welcomeUser.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/res/style/ResetPassStyle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/res/style/WelcomeStyle.css" beforeDir="false" />
+    <list default="true" id="af639c24-e573-479f-ba70-7c6421262eca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/res/style/ResetPassStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/res/style/WelcomeStyle.css" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sensor/SensorDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+            <state relative-caret-position="480">
+              <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/web/jsp/Support.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="385">
-              <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+              <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -143,7 +111,7 @@
         <entry file="file://$PROJECT_DIR$/src/user/UserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
-              <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+              <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -188,6 +156,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Brian Taesung Lee &lt;brian.ts.lee.0907@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
@@ -230,7 +203,6 @@
         <option value="$PROJECT_DIR$/src/util/Gmail.java" />
         <option value="$PROJECT_DIR$/src/util/SHA256.java" />
         <option value="$PROJECT_DIR$/src/util/DatabaseUtil.java" />
-        <option value="$PROJECT_DIR$/src/sensor/SensorDAO.java" />
         <option value="$PROJECT_DIR$/src/sensor/SensorDTO.java" />
         <option value="$PROJECT_DIR$/web/jsp/addSensor.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/viewStatus.jsp" />
@@ -238,6 +210,7 @@
         <option value="$PROJECT_DIR$/src/user/UserDTO.java" />
         <option value="$PROJECT_DIR$/web/jsp/Support.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/HomePage.jsp" />
+        <option value="$PROJECT_DIR$/src/sensor/SensorDAO.java" />
       </list>
     </option>
   </component>
@@ -431,12 +404,20 @@
       <workItem from="1563035059630" duration="105000" />
       <workItem from="1563036104199" duration="1949000" />
       <workItem from="1563087503575" duration="2058000" />
-      <workItem from="1563091774179" duration="10856000" />
+      <workItem from="1563091774179" duration="11187000" />
     </task>
+    <task id="LOCAL-00001" summary="Change Log:&#10;1. Finished implementing customer service email interaction functionality&#10;2. Finished implementing add sensor to database&#10;3. Altered table setting to rid duplicates">
+      <created>1563111505868</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563111505868</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50043000" />
+    <option name="totallyTimeSpent" value="50374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -515,9 +496,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Change Log:&#10;1. Finished implementing customer service email interaction functionality&#10;2. Finished implementing add sensor to database&#10;3. Altered table setting to rid duplicates" />
     <option name="LAST_COMMIT_MESSAGE" value="Change Log:&#10;1. Finished implementing customer service email interaction functionality&#10;2. Finished implementing add sensor to database&#10;3. Altered table setting to rid duplicates" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -764,7 +752,7 @@
     <entry file="file://$PROJECT_DIR$/src/user/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -774,7 +762,7 @@
     <entry file="file://$PROJECT_DIR$/web/jsp/Support.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
-          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -801,8 +789,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sensor/SensorDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        <state relative-caret-position="480">
+          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
