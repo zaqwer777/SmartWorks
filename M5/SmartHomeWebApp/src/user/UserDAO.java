@@ -1,19 +1,14 @@
-/**
- * @author brian7989
- * java version 10.0.1
- */
-
 package user;
+
+import util.DatabaseUtil;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-import util.DatabaseUtil;
-
 
 /**
- * Data Access Object, accesses user table
+ * Data Access Object, accesses USER table
  */
 public class UserDAO {
 
@@ -26,13 +21,13 @@ public class UserDAO {
     }
 
     /**
-     * Adds userID and userPW into database
+     * Adds userID and userPW into database using SQL statement
      * @param userID user's ID to enter
      * @param userPW user's corresponding PW to enter
      * @return 1 if successfully added, -1 if database error
      */
     public int join (String userID, String userPW) {
-        String SQL = "INSERT INTO USER VALUES (?,?)";
+        String SQL = "INSERT INTO user VALUES (?,?)";
         try {
             pstmt = conn.prepareStatement(SQL);
             pstmt.setString(1, userID);
@@ -54,7 +49,7 @@ public class UserDAO {
      * -2 if database error
      */
     public int login(String userID, String userPW) {
-        String SQL = "SELECT userPW FROM USER WHERE userID = ?";
+        String SQL = "SELECT userPW FROM user WHERE userID = ?";
         try {
             pstmt = conn.prepareStatement(SQL);
             pstmt.setString(1, userID);

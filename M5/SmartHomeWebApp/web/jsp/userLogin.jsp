@@ -6,9 +6,8 @@
   Time: 1:03 AM
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <%@ page import="user.UserDAO"%>
-<%@ page import="user.UserDTO"%>
 <%@ page import="java.io.PrintWriter" %>
 <%
     String userID = request.getParameter("userID");
@@ -43,6 +42,7 @@
             script.close();
             break;
         case 1:
+            session.setAttribute("userID", userID);
             script = response.getWriter();
             script.println("<script>");
             script.println("location.href = 'HomePage.jsp'");

@@ -5,9 +5,8 @@
   Time: 3:22 PM
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <html lang="en">
-<html>
 <head>
     <title> Welcome Screen </title>
     <meta charset="UTF-8"/>
@@ -29,30 +28,26 @@
 <table class="tg" align="center">
     <tr>
         <td class="tg-0lax">
-            <a href="./alarm.jsp">Alarm Configuration</a>
-        </th>
+            <a href="./travel.jsp">Travel Mode</a>
+        </td>
         <td class="tg-0lax">
             <a href="./addSensor.jsp">Add Sensor</a>
-        </th>
-    </tr>
-    <tr>
-        <td class="tg-0lax">Battery Levels</td>
-        <td id="camera" class="tg-0lax">
-            <a href="./camera.jsp">Cameras</a>
         </td>
     </tr>
     <tr>
         <td class="tg-0lax">
-            <a href="./floor.jsp">Floor Plan</a>
+            <a href="./viewStatus.jsp">Sensor Status</a>
         </td>
-        <td class="tg-0lax">Devices</td>
+        <td id="camera" class="tg-0lax">
+            <a href="./addFloor.jsp">Floor Configuration</a>
+        </td>
     </tr>
     <tr>
         <td class="tg-0lax">
             <a href="./feedback.jsp">Feedback</a>
         </td>
         <td class="tg-0lax">
-            <a href="./support.jsp">Customer Service</a>
+            <a href="./Support.jsp">Customer Service</a>
         </td>
     </tr>
 </table>

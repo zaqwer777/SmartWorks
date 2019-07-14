@@ -8,8 +8,8 @@
           <element id="module-output" name="SmartHomeWebApp" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="mysql-connector-java-8.0.16" />
           <element id="library" level="application" name="mysql-connector-java-8.0.16" />
+          <element id="file-copy" path="$USER_HOME$/Resources/mySQLconnectorJ/mysql-connector-java-8.0.16.jar" />
         </element>
       </element>
     </root>

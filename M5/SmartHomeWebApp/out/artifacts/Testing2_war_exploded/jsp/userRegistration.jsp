@@ -6,9 +6,8 @@
   Time: 1:03 AM
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <%@ page import="user.UserDAO"%>
-<%@ page import="user.UserDTO"%>
 <%@ page import="java.io.PrintWriter" %>
 <%
     String userID = null;
@@ -33,7 +32,8 @@
     if (result == 1) {
         PrintWriter script = response.getWriter();
         script.println("<script>");
-        script.println("location.href = 'welcomeUser.jsp'");
+        script.println("alert('Successfully Registered. You may now login');");
+        script.println("history.back();");
         script.println("</script>");
         script.close();
         return;
