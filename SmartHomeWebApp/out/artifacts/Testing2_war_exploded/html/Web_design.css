@@ -1,0 +1,76 @@
+body {
+  background-color: white;
+}
+p {
+  color: green;
+  text-align: center;
+}
+
+button:hover {
+  background-color: orange;
+}
+
+button {
+  background-color: #1abc9c; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  border: 1px solid #1abc9c;
+}
+
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+th {
+  background-color: #1abc9c;
+  color: white;
+}
+
+tr:nth-child(odd) {background-color: #f2f2f2;}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #1abc9c;
+  color: white;
+}
+
